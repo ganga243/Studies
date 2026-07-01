@@ -1,0 +1,20 @@
+p{
+    /* color: red; Named colors */
+    /* color: rgb(37 ,122, 26); rgb colors */
+    /* color: rgba(37, 122, 26, 0.5); rgba colors */
+    /* color: #f005; */
+    color: hsla(230, 100%, 80%, 0.921);
+   /* font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-weight: 400;
+    font-variant:small-caps;
+    font-size: 30px; 
+    font: italic small-caps bold 12px/30px Geogia, serif; */
+    text-align:justify;
+    /*text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 4px; */
+    text-decoration: underline red wavy 1px;
+
+}
