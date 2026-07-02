@@ -1,0 +1,40 @@
+/* p{
+    text-transform: lowercase;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 2.5;
+    text-shadow: 2px 2px 5px red;
+}
+div{
+    height: 100vh;
+    width: 50%;
+    background-color: red; --> 
+} */
+ /* body{
+    margin: 0px;
+ } */
+
+ /* p{
+    width: 100px;
+    height: 100px; */
+   /*  margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 50px; */
+    /* margin: 10px 20px;  */
+
+    /* border: 2px solid black; */
+    /*border-radius: 13px; */
+
+   /* padding: 10px;
+    padding-top: 10px;
+    box-sizing: border-box; */
+/* } */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, purple, white);
+
+}
