@@ -1,0 +1,14 @@
+.box1{
+       width: 400px;
+       height: 200 px;
+       border: 2px solid black;
+
+    background-image:url(dog.jpg);
+    background-repeat:no-repeat;
+    background-size: 100px 100px;
+    background-position: right top;
+   /* background-size: cover; */
+   /* background-attachment: scroll;*/
+
+
+}
