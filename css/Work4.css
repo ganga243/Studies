@@ -1,14 +1,42 @@
 .box1{
        width: 400px;
-       height: 200 px;
+       height: 200px;
        border: 2px solid black;
 
-    background-image:url(dog.jpg);
+       border-width:5px;
+       border-style: dotted;
+       border-color: black;
+
+   background-image:url(dog.jpg.jpg);
     background-repeat:no-repeat;
-    background-size: 100px 100px;
-    background-position: right top;
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+    
+}
+    
    /* background-size: cover; */
    /* background-attachment: scroll;*/
 
 
+
+
+/*body{
+   background-image: url("dog.jpg.jpg");
+   background-attachment: fixed;
+}*/-->
+/*button{
+   background-color: blue;
+   color: white;
+   padding: 10px, 20px;
+}
+button:hover{
+   background-color: red;
+}*/
+/*p::first-letter{
+   color:brown;
+   font-size:  40px;
+}*/
+p::first-line{
+   color: blue;
 }
