@@ -25,18 +25,18 @@
    background-image: url("dog.jpg.jpg");
    background-attachment: fixed;
 }*/-->
-/*button{
+button{
    background-color: blue;
    color: white;
    padding: 10px, 20px;
 }
 button:hover{
    background-color: red;
-}*/
+}
 /*p::first-letter{
    color:brown;
    font-size:  40px;
 }*/
-p::first-line{
+/*::first-line::first-line{
    color: blue;
-}
+}*/
