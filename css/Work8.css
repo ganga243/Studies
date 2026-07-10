@@ -48,16 +48,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bolder;
 }
-.search {
-    flex: 2;
+.Search {
+    flex: 3;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.search input{
+.Search input{
     width: 60%;
     height: 20px;
     border: transparent;
@@ -88,4 +88,28 @@ body{
 .Services ul li:hover{
     transition: 0.5s ease;
     transition: scale(1.2);
+}
+@media screen and (max-width:426px) {
+    .Services ul{
+        display: none;
+    }
+    .Search input{
+        display: none;
+    }
+    .Search .search_icon{
+        right: 0px;
+        font-size: 25px;
+    }
+    .Search{
+        justify-content: flex-end;
+    }
+    .Services{
+        justify-content: flex-start;
+    }
+}
+@media screen and (min-width:426px) {
+    .Services .menu{
+        display: none;
+    }
+    
 }

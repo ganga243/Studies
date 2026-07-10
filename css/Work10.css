@@ -1,0 +1,27 @@
+.main{
+    height: 100px;
+    background-color: green;
+}
+p{
+    font-size: 60px;
+}
+
+@media screen and (max-width:769px){
+    .main{
+        background-color: rgb(32, 3, 3);
+    }
+    p{
+    font-size: 40px;
+}
+}
+@media screen and (max-width:426px) {
+    .main{
+        background-color: rgb(2, 2, 28);
+    }
+
+}    
+@media  screen and (max-width:321px) {
+    p{
+        font-size: 20px;
+    }
+}
