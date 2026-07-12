@@ -1,0 +1,36 @@
+body{
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: darkblue;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color:red;
+    margin:50px auto;
+
+    animation-name: move;
+    animation-duration:4s;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes move{
+    from{
+        background-color:red;
+        transform:translateX(0px);
+    }
+
+    to{
+        background-color:blue;
+        transform:translateX(300px);
+    }
+}

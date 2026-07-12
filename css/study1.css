@@ -1,0 +1,276 @@
+/* body{
+    font-family: Arial,  sans-serif;
+    text-align: center;
+    background-color: white;
+}
+.container{
+    perspective: 500px;
+    margin-top: 100px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    color: white;
+    line-height: 200px;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    transform: rotatex(30deg) rotateY(30deg);
+    transform-style: preserve-3d;
+} */
+ /* body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 600px;
+    background: white;
+ }
+ .box{
+    width: 200px;
+    height: 200px;
+    background: rgb(57, 11, 11);
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin: 100px auto;
+
+    transform: rotatey(45deg);
+ } */
+ 
+/* body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hvh;
+    background-color: white;
+} 
+.container{
+    perspective: 600px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+
+    animation: rotateBox 3s linear infinite;
+}
+ @keyframes rotateBox{
+     from{
+            transform: rotatez(0deg);
+     }
+     to{
+
+        transform: rotatez(45deg);
+} */
+
+/* body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+.container{
+    perspective: 600px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    animation: rotate3D 3s linear infinite;
+}
+@keyframes rotate3D{
+      from{
+        transform: rotate3d(1,1,0deg);
+      }
+      to{
+               transform: rotate3D(1,1,1,45deg);
+      }
+} */
+ /* body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+.container{
+    perspective: 800px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+
+    animation: movez 3s infinite alternate;
+}
+@keyframes movez{
+    from{
+        transform:translatez(0px);
+    }
+    to{
+        transform:translatez(150px);
+    }
+} */
+       /* Translate3D() */
+/* body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+.container{
+    perspective: 800px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgb(34, 6, 6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+
+    animation: move3D 3s infinite alternate;
+}
+@keyframes move3D{
+    from{
+        transform:translate3D(0,0,0);
+    }
+      to{
+        transform:translate3D(100px,50px,100px);
+    }
+}  */
+    /* scalez() */
+/* body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+.container{
+    perspective: 800px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgb(34, 6, 6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+
+    animation: scalebox 3s infinite alternate;
+}
+@keyframes scalebox{
+    from{
+        transform: scale(1);
+    }
+     to{
+        transform:scale(1.5);
+    }
+}  */
+    /* Scale3D */
+
+/* body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+.container{
+    perspective: 800px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgb(34, 6, 6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+
+    animation: scale3D 3s infinite alternate;
+}
+@keyframes scale3D{
+    from{
+        transform: scale3D(1,1,1);
+    }
+     to{
+        transform:scale3D(1.5,1.5,1.5);
+    }
+}  */
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+.container{
+    perspective: 600px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background:  royalblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+
+    animation: rotateDemo 3s infinite alternate;
+}
+@keyframes rotateDemo{
+    from{
+        transform: rotateY(0deg);
+    }
+     to{
+        transform: rotateY(60deg);
+    }
+}  
+
+
+     
+
+    
+   
+
